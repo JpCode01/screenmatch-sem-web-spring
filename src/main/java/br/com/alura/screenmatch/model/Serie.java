@@ -99,6 +99,10 @@
             return poster;
         }
 
+        public List<Episodio> getEpisodios() {
+            return episodios;
+        }
+
         public void setPoster(String poster) {
             this.poster = poster;
         }
